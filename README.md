@@ -1,4 +1,9 @@
-# Stable Diffusion
+# Stable Diffusion: With Composition
+This repository implements composition from the paper "Compositional Diffusion Models". To use, simply specify a prompt using prompt weighting, for example
+`python3 scripts/txt2img.py --prompt "A photo of Barack Obama :: A photo of Joe Biden"`.
+
+
+# Existing Readme:
 *Stable Diffusion was made possible thanks to a collaboration with [Stability AI](https://stability.ai/) and [Runway](https://runwayml.com/) and builds upon our previous work:*
 
 [**High-Resolution Image Synthesis with Latent Diffusion Models**](https://ommer-lab.com/research/latent-diffusion-models/)<br/>
