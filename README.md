@@ -2,12 +2,15 @@
 This repository implements composition from the paper "Compositional Diffusion Models". To use, simply specify a prompt using prompt weighting, for example
 `python3 scripts/txt2img.py --prompt "A photo of Barack Obama :: A photo of Joe Biden"`.
 
-Original Paper: @Article{liu2022compositional,
+Original Paper:
+```
+@Article{liu2022compositional,
 title={Compositional Visual Generation with Composable Diffusion Models},
 author={Liu, Nan and Li, Shuang and Du, Yilun and Torralba, Antonio and Tenenbaum, Joshua B},
 journal={arXiv preprint arXiv:2206.01714},
 year={2022}
 }
+```
 
 [Reference Implementation:](https://github.com/energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch)
 
